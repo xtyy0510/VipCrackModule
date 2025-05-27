@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="VIP破解模块"
+        android:theme="@android:style/Theme.Translucent">
+
+        <!-- 指明这是 Xposed 模块 -->
+        <meta-data android:name="xposedmodule" android:value="true" />
+        
+        <!-- 模块描述 -->
+        <meta-data android:name="xposeddescription" android:value="VIP破解模块，Hook isVip 方法" />
+        
+        <!-- Xposed 最低支持版本 -->
+        <meta-data android:name="xposedminversion" android:value="89" />
+        
+        <!-- 你的入口类路径（必须全名） -->
+        <meta-data android:name="xposedmoduleclass" android:value="com.example.vipcrackmodule.VipCrackHook" />
+
+    </application>
+</manifest>
