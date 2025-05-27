@@ -85,4 +85,6 @@ frida -U -l viphook_EN.js -f com.hcn.mm
 
 然后游客登录修改水印相机，vip就会自动生效
 
-![QQ_1748347677746](C:\Users\xtyy\AppData\Local\Temp\QQ_1748347677746.png)
+![QQ_1748347677746](https://github.com/user-attachments/assets/e8b2e17c-26b4-4a46-bbba-bbbdd8ab95b4)
+
+
